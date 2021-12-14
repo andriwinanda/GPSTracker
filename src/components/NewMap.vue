@@ -152,7 +152,7 @@ export default {
           this.datacollection.datasets[0].data.push(Routes[this.index].speed);
           this.datacollection.labels.push(moment(new Date()).format("DD-MM-YY hh:mm:ss "));
         }
-      }, 3000);
+      }, 10000);
     },
 
     pause() {
